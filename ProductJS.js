@@ -3,15 +3,16 @@ var path2 = "";
 var path3 = "";
 
 var tax = sessionStorage.getItem('Taxonomy');
-path1 = "Textfiles/"+tax+".txt";
+path1 = "TextFiles/"+tax+".txt";
 console.log(path1);
 
 var size = sessionStorage.getItem('Size');
-path2 = "Textfiles/"+size+".txt";
+if(size == '&lt;15'){size = 'u15';}
+path2 = "TextFiles/"+size+".txt";
 console.log(path2);
 
 var collab = sessionStorage.getItem('Collaboration');
-path3 = "Textfiles/"+collab+".txt";
+path3 = "TextFiles/"+collab+".txt";
 console.log(path3);
 
 fetch(path1)
