@@ -38,7 +38,7 @@ h1 {
 
 .button6 {
     background-color: white;
-    border-color: black;
+    border-color: #4384ff;
     border-width: 2px;
     width: 100px;
     height: 50px; 
@@ -52,21 +52,25 @@ h1 {
     margin-right: 25px;
     cursor: pointer;
     transition-duration: .4s;
+    border-radius: 12px;
+    box-shadow: none;
   }
 
 .button6:hover {
     background-color: #DFFBF9;
+    outline: none;
 }   
 
 .selected{
     transition-duration: .05s;
-    box-shadow: 2px 2px #666 inset;
-    background-color: #DFFBF9 !important; 
+    background-color: #4384ff !important;
+    color: white !important;
+    outline: none; 
 }
 
 .button5 {
     background-color: white;
-    border-color: black;
+    border-color: #4384ff;
     border-width: 2px;
     width: 100px;
     height: 50px; 
@@ -79,6 +83,8 @@ h1 {
     margin-left: 44px;
     margin-right: 44px;
     cursor: pointer;
+    transition-duration: .4s;
+    border-radius: 12px;
 }
 
 .button5:hover {
@@ -87,6 +93,7 @@ h1 {
 
 .submit {
     background-color: #DEDEDE;
+    border-radius: 12px;
     border: none;
     color: #717171;
     font: 'Segoe UI';
@@ -96,12 +103,11 @@ h1 {
     height: 69px;
     display: inline-block;
     margin-top: 40px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .SubmitActive {
-    background-color: #9EFEF7;
-    color: #717171;
+    background-color: #4384ff;
+    color: white;
 }
 
 .productText {
