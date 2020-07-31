@@ -91,11 +91,11 @@ h1 {
     color: #717171;
     font: 'Segoe UI';
     font-weight: bold;
-    font-size: 75px;
-    width: 528px;
-    height: 138px;
+    font-size: 40px;
+    width: 264px;
+    height: 69px;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 40px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
